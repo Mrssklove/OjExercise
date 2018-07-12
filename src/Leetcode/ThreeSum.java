@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 先排序  固定一个点 在逼近
  */
-public class TwoSum {
+public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         int len=nums.length;
